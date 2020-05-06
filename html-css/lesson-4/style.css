@@ -1,0 +1,28 @@
+*{
+	font-family: sans-serif;
+}
+
+html{
+	background-image: url(https://picsum.photos/200/300?grayscale);
+	background-size: cover;
+	background-position: center;	
+}
+
+h1{
+	text-align: center;
+	color: #008888;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+p{
+	font-style: italic;
+	background: #008888;
+	color: #fff;
+}
+
+div p{
+	color: #339999;
+	background: rgba(255, 255, 255, 0.8);
+	font-weight: bold;
+	font-style: normal;
+}

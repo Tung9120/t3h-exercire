@@ -1,0 +1,19 @@
+*{
+	font-family: sans-serif;
+}
+
+h2{
+	color: green;
+}
+
+td{
+	color: green;
+}
+
+table, tr, td{
+	border: 1px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	background: #31FF70;
+	padding: 5px;
+}

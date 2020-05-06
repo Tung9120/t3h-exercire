@@ -1,0 +1,29 @@
+*{
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: green;
+}
+
+div{
+	margin: 3%;
+}
+
+.subjectname{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.properties{
+	font-style: italic;
+}
+
+.value{
+	color: red;
+}
+
+pre{
+	background: #ccc;
+}

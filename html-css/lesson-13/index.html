@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="">
+		<table align="center">
+			<caption>
+				<h2>Đăng ký du lịch</h2>
+			</caption>
+			<tr>
+				<td>Họ và tên</td>
+				<td>
+					<input type="text" autocomplete="off">
+				</td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td>
+					<input type="text" autocomplete="off">
+				</td>
+			</tr>
+			<tr>
+				<td>SĐT</td>
+				<td>
+					<input type="number" name="" id="">
+				</td>
+			</tr>
+			<tr>
+				<td>Khách Việt Nam</td>
+				<td>
+					<input type="checkbox" name="" id="" checked="on">
+				</td>
+			</tr>
+			<tr>
+				<td>Chọn tour</td>
+				<td>
+					<select name="" id="">
+						<option value="1">Nha Trang - Đà Lạt</option>
+						<option value="2">Hà Nội - TP.HCM</option>
+						<option value="3">Đà Nẵng - Phú Quốc</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Phương tiện</td>
+				<td>
+					<input type="radio" name="planeair" id="">
+					<label for="planeair">Máy bay</label>
+					<input type="radio" checked="on" name="car" id="">
+					<label for="car">Ô tô</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<fieldset>
+						<legend>Chọn số người tham gia</legend>
+						<label for="adult">Người lớn</label>
+						<input type="tel" size="1" name="adult" id="">
+						<label for="children">Trẻ em</label>
+						<input type="tel" size="1" name="children" id="">
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td>Ghi chú thêm</td>
+				<td colspan="">
+					<textarea name="" id="" cols="30" rows="4"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" value="Đăng nhập" id="submit">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<p id="result"></p>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<script src="main.js"></script>
+</body>
+</html>

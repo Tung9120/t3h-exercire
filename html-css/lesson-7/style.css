@@ -1,0 +1,45 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	color: red;
+}
+
+.bg-danger{
+	background: red;
+	color: #fff;
+}
+
+.col{
+	display: flex;
+}
+
+.col ul,li{
+	padding: 2%;
+}
+
+.col-img{
+	flex-grow: 1;
+}
+
+.col .list{
+	flex-grow: 2;
+}
+
+ol ul.square{
+	list-style: square;
+}
+
+footer{
+	text-align: center;
+	margin: 5% auto;
+}
+
+footer a{
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+}

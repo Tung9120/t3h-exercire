@@ -1,0 +1,36 @@
+*{
+	font-family: sans-serif;
+}
+
+/* #FF0000, #FFFFFF, #FFBBBB, #FF0000
+ */
+
+table{
+	width: 100%;
+}
+
+table, th, td{
+	border: 3px solid violet;
+	border-collapse: collapse;
+}
+
+th.title{
+	background: red;
+	color: #fff;
+}
+
+th.description{
+	background: #ffbbbb;
+	color: #f00;
+}
+
+.text-red{
+	color: #f00;
+	font-weight: bold;
+}
+
+.bold-italic{
+	font-weight: bold;
+	font-style: italic;
+}
+

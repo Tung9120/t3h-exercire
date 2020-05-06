@@ -1,0 +1,50 @@
+*{
+	font-family: sans-serif;
+}
+
+/*#FFEDCA, #CC6600, #FFFFFF, #FFFFFF, #FFEDCA,*/
+
+h1{
+	color: orange;
+	text-align: center;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+
+table{
+	width: 40vw;
+	margin-left: 4rem;
+}
+
+table,th,tr, td{
+	border-color: violet;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th:first-child{
+	padding: 1rem;
+}
+
+td:first-child{
+	padding: 1rem;
+}
+
+th{
+	color: #fff;
+	background: #cc6600;
+}
+
+tr:nth-child(even){
+	background: #fff;
+}
+
+tr:nth-child(odd){
+	background: #ffedca;
+}

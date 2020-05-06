@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <table align="center">
+            <caption>
+                <h2>Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+            </caption>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                    <input type="text" id="name" autocomplete="off">
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <input type="text" id="adress">
+                </td>
+            </tr>
+            <tr>
+                <td>SĐT</td>
+                <td>
+                    <input type="number" id="phonenumber">
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" value="Nam" name="gender" checked><label for="">Nam</label>
+                    <input type="radio" value="Nữ" name="gender"><label for="">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <select name="" id="job" size="">
+                        <option value="Teacher" selected>Giáo viên</option>
+                        <option value="Developer">Lập trình viên</option>
+                        <option value="Doctor">Bác sĩ</option>
+                        <option value="Engineer">Kỹ sư</option>
+                        <option value="Manager">Giám đốc</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>
+                    <select name="product" id="" size="3">
+                        <option value="toothpaste">Kem đánh răng</option>
+                        <option value="washing-powder">Bột giặt</option>
+                        <option value="shampo">Dầu gội đầu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td>
+                    <input type="number" name="amount-of-people" id="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Đăng ký" id="submit">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                	<p id="result"></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>

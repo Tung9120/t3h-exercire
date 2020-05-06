@@ -1,0 +1,44 @@
+*{
+	font-family: sans-serif;
+}
+
+h1{
+	color: red;
+	border: 1px solid red;
+	outline: double;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+
+.text-center{
+	text-align: center;
+
+}
+
+.text-right{
+	background-color: #FFCC00;
+	color: #fff;
+	text-align: right;
+	margin: 3% 0;
+	margin-bottom: 4%;
+}
+
+.first-letter::first-letter{
+	color: red;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.cities{
+	color: red;
+	font-weight: bold;
+}
+
+.text-dark{
+	color: black;
+	background: transparent;
+}
+
+mark{
+	font-style: italic;
+}

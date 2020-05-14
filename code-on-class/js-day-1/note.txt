@@ -1,0 +1,8 @@
+dung ten cac tag header, footer de seo
+khong nen *{} reset css se anh huong den performance, reset cac the can thiet thoi
+terminal la giao dien lam viec truc tiep voi he dieu hanh 
+chrome va firefox la 2 trinh duyet khac nhau bo chuyen doi ma js la v8 engine va rihno khac nhau nen dung 1 chuan js chung la ecmascript
+kieu du lieu symbol : vd tao ra 1 uit id khong bien khac trung` duoc va khong thay doi duoc
+quy tac dat ten bien trong js:
+camelCase: chu cai dau viet thuong cac chu cai sau viet hoa
+viet ten bien co y nghia sau nay de doc va comment de hieu, dat ten tieng Anh

@@ -1,0 +1,26 @@
+nên dùng else if thay vì if if if nhiều lần sẽ làm giảm performance
+dùng if nhiều lần khi đã vào đúng điều kiện code sẽ vẫn phải check tiếp gây tốn bộ nhớ
+else if nên dùng 1 điều kiện kiểm tra để tối ưu performance
+tất cả các biến != empty string là true, empty string là false
+tất cả các số khác 0 là true, số 0 là false
+switch case dùng trong điều kiện biết chính xác các biến, dùng với toán tử so sánh bằng (==)
+if else if else if dùng trong điều kiện biến trong khoảng nào nó dùng với lớn hơn hoặc bằng... ngoài ra dùng cũng có thể dùng với toán tử bằng (==)
+trong vòng lặp for có 3 điều kiện :
+1 là điều kiện khởi tạo,
+2 là điều kiện check
+3 là điều kiện thay đổi dữ liệu khởi tạo
+
+1s thực hiện 10^8 1 biểu thức: vd: a = a + b;
+
+trong vòng lặp có vòng lặp (vòng lặp lồng nhau) sẽ làm vòng lặp tăng lên bằng vòng lặp nhân vòng lặp
+vd: for(;i<=10; i++){
+    for(;j <= 10; j++){
+
+    }
+}
+vòng lặp trên sẽ thực hiện 100 lần, khi sử dụng vòng lặp nên lưu ý nếu không sẽ làm chương trình bị dừng, đơ máy ...
+
+vòng lặp for và while có thể thay thế được cho nhau
+
+vòng lặp while và do while dùng để lặp khi không xác định số lần lặp
+vòng lặp for dùng khi biết số lần lặp

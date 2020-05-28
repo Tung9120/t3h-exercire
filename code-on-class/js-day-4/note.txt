@@ -1,0 +1,4 @@
+khi nào dùng '' và "" (string trong js);
+
+'A' == 'a' -> false
+tất cả các string method đều có thể xử lý bằng for loop

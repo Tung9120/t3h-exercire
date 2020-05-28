@@ -1,0 +1,3 @@
+function trong function (đệ quy)
+khi truyền tham số vào 1 function .vd: isPrime(3) sẽ tạo ra 1 stack, stack này có dữ liệu riêng biệt với các biến bên ngoài sau khi hàm thực hiện xong thì dữ liệu trong hàm bị xóa 
+nếu hàm gọi trong hàm sẽ tạo ra 1 stack khác, các dữ liệu trong func con không liên quan đến func cha 

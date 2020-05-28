@@ -1,0 +1,4 @@
+array để lưu trữ nhiều data trong một biến
+typeof Array trong js trả về Object 
+bản chất array là object, các object có địa chỉ lưu trong vùng nhớ nào đó khi khai báo 2 biến khác nhau và gán bằng 1 arr or object thì khi 1 trong hai biến thay đổi giá trị của arr or obj thì biến kia cũng bị thay đổi theo 
+

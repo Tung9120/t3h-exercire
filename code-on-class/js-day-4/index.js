@@ -94,7 +94,7 @@ function replace(str, newSubstr, length, pos) {
 
 console.log("Replaced:", replace("Vu Thanh Tung", "Vo", "Vu".length, 0));
 
-function trimNameOp(name) {
+function trimNameOp(name) { // Op == optimal (tối ưu)
   let index = 0;
   while (index <= name.length - 1) {
     if (name[index] == " " && name[index + 1] == " ") {

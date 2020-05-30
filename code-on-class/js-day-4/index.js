@@ -2,7 +2,7 @@
 let firstName = "Tung";
 let lastName = "Vu";
 
-// let introduce = 'I\'m a \n \t student'; // \n \t để xuống dòng
+// let introduce = 'I\'m a \n \t student'; // \n == xuống dòng, \t == 1tab
 // console.log(introduce);
 
 // "'tung'" -> 'tung'
@@ -71,7 +71,7 @@ let name = firstName + " " + lastName;
 // let pos = str.indexOf(substr);
 // console.log(pos);
 // let newStr =
-  // str.slice(0, pos) + "good" + str.slice(pos + substr.length, str.length);
+// str.slice(0, pos) + "good" + str.slice(pos + substr.length, str.length);
 // console.log(newStr);
 
 // buid a trimName function
@@ -92,17 +92,17 @@ function replace(str, newSubstr, length, pos) {
   return str.slice(0, pos) + newSubstr + str.slice(pos + length);
 }
 
-console.log('Replaced:', replace('Vu Thanh Tung', 'Vo', 'Vu'.length, 0));
+console.log("Replaced:", replace("Vu Thanh Tung", "Vo", "Vu".length, 0));
 
 function trimNameOp(name) {
   let index = 0;
-  while(index <= name.length - 1){
-    if(name[index] == ' ' && name[index + 1] == ' '){
-      name = replace(name, '-', 2, index);
+  while (index <= name.length - 1) {
+    if (name[index] == " " && name[index + 1] == " ") {
+      name = replace(name, "-", 2, index);
     }
     index++;
   }
   return name;
 }
 
-console.log(trimNameOp('  Vu    Thanh    Tung   '));
+console.log(trimNameOp("  Vu    Thanh    Tung   "));

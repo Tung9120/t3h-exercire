@@ -1,13 +1,5 @@
 const nums = [1, 2, 3, 4, 6, 7];
 
-// const myOption = (num) => {
-//   console.log(num - 1 , num + 1);
-// };
-
-// const result = nums.filter((item, index) => {
-
-// });
-
 const selectNumber = (arr, num) => {
   if (num === arr[0]) {
     return arr[0] - 1;

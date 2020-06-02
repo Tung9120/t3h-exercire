@@ -23,4 +23,4 @@ const filterSpecialStudents = (name) => {
 
 const specialStudents = students.filter(filterSpecialStudents);
 
-console.log("specialStudents", specialStudents);
+console.log("specialStudents:", specialStudents);

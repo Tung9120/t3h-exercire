@@ -1,0 +1,2 @@
+hàm super để gọi lại hàm constructor của hàm kế thừa
+sử dụng fat arrow làm prototype trong class sẽ tự bind thay vì sử dụng function bình thường

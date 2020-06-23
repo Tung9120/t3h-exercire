@@ -1,0 +1,9 @@
+exception là khi gọi biến nhưng biến chưa được định nghĩa
+khi đi làm thực tế hàm try catch ít dùng
+thường khi code sẽ bắt hết các trường hợp (case) lỗi xảy ra lên đến 99%
+sử dụng khi không thể bắt được lỗi (1%)
+try catch dùng trong trường hợp . vd:
+1 func rất dài không kiểm soát được hết lỗi
+các func khi được khai báo sẽ được truyền hết lên đầu hàm nên 
+khi gọi hàm trước khi khai báo không bị lỗi
+closure là các giá trị không bị xóa đi 

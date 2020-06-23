@@ -126,4 +126,16 @@ console.log(findCallback("ball"));
 let numbers = [1, 3, 5, 6, 7, 9];
 // coding a function return first even number in array
 
-let result = numbers.find(number => checkEven);
+
+const findFirstEven = (num) => {
+  for (let i = 2; i < num; i++) {
+    if (num % i == 0) {
+      return false;
+    }
+  }
+  return num > 1;
+};
+
+let result = numbers.find((number) => findFirstEven);
+
+console.log('findFirstEven:', result);

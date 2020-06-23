@@ -1,0 +1,4 @@
+thread là luồng, main là chính
+trong javascript không thể tạo ra luồng mà chỉ có thể dựa vào các hàm có sẵn trong js (vd: setTimeOut)
+gọi api sẽ phải chờ nhưng không muốn phải chờ thì dùng ...
+promise thường được dùng trong gọi API

@@ -1,0 +1,10 @@
+muốn làm được 1 game bằng html css js ổn thì phải
+có kiến thức base tốt và cày 4 tuần liên tục trong quá
+trình cày phải tra google thường xuyên
+có nhiều obj phải render và clearScreen nên 
+sẽ cho vào setInterVal
+
+nếu chỉ sử dụng kiến thức về reactjs + 1 ít thuật toán
+thì đi làm mấy năm lương cũng chỉ khoảng 10tr, muốn lương
+cao hơn thì phải có thêm kiến thức, tư duy tốt hơn và biết
+thêm ngoại ngữ

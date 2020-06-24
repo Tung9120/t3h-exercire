@@ -1,0 +1,7 @@
+framework là 1 bộ khung có sẵn còn, library là
+thư viện kết hợp với nhiều thư viện khác để
+viết 1 chương trình gì đó
+
+create-creact-app để học tập còn đi làm thì có
+config hết rồi chỉ cần viết code (zero config)
+
